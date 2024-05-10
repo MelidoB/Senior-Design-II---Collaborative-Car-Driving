@@ -1,0 +1,8 @@
+CarlaUE4.exe -quality-level=Low -ResX=800 -ResY=600
+py -3.7 visualize_multiple_sensors.py
+py -3.7 client_bounding_boxes.py
+py -3.7 generate_traffic.py -n 40
+
+
+
+127.0.0.1
